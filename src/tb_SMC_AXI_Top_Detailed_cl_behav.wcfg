@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_SMC_AXI_Top_Detailed_cl_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_SMC_AXI_Top_Detailed_cl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="270.833 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,895.834 ns"></ZoomEndTime>
+      <Cursor1Time time="795.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="141"></NameColumnWidth>
+      <ValueColumnWidth column_width="106"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="43" />
+   <wvobject fp_name="/tb_SMC_AXI_Top_Detailed_cl/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SMC_AXI_Top_Detailed_cl/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SMC_AXI_Top_Detailed_cl/dut/u_smc/u_bram/mem[165]" type="array">
+      <obj_property name="ElementShortName">[165][127:0]</obj_property>
+      <obj_property name="ObjectShortName">[165][127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SMC_AXI_Top_Detailed_cl/dut/slv_reg0" type="array">
+      <obj_property name="ElementShortName">slv_reg0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SMC_AXI_Top_Detailed_cl/dut/u_smc/key_in" type="array">
+      <obj_property name="ElementShortName">key_in[127:0]</obj_property>
+      <obj_property name="ObjectShortName">key_in[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SMC_AXI_Top_Detailed_cl/dut/u_smc/nonce_in" type="array">
+      <obj_property name="ElementShortName">nonce_in[95:0]</obj_property>
+      <obj_property name="ObjectShortName">nonce_in[95:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SMC_AXI_Top_Detailed_cl/dut/u_smc/iv_counter" type="array">
+      <obj_property name="ElementShortName">iv_counter[127:0]</obj_property>
+      <obj_property name="ObjectShortName">iv_counter[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SMC_AXI_Top_Detailed_cl/dut/u_smc/cpu_addr" type="array">
+      <obj_property name="ElementShortName">cpu_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">cpu_addr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SMC_AXI_Top_Detailed_cl/dut/u_smc/cpu_data_in" type="array">
+      <obj_property name="ElementShortName">cpu_data_in[127:0]</obj_property>
+      <obj_property name="ObjectShortName">cpu_data_in[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SMC_AXI_Top_Detailed_cl/dut/u_smc/cpu_write_en" type="logic">
+      <obj_property name="ElementShortName">cpu_write_en</obj_property>
+      <obj_property name="ObjectShortName">cpu_write_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SMC_AXI_Top_Detailed_cl/dut/write_reg_en" type="logic">
+      <obj_property name="ElementShortName">write_reg_en</obj_property>
+      <obj_property name="ObjectShortName">write_reg_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SMC_AXI_Top_Detailed_cl/tb_rdata" type="array">
+      <obj_property name="ElementShortName">tb_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SMC_AXI_Top_Detailed_cl/dut/write_pulse_counter" type="array">
+      <obj_property name="ElementShortName">write_pulse_counter[2:0]</obj_property>
+      <obj_property name="ObjectShortName">write_pulse_counter[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SMC_AXI_Top_Detailed_cl/dut/write_error" type="logic">
+      <obj_property name="ElementShortName">write_error</obj_property>
+      <obj_property name="ObjectShortName">write_error</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SMC_AXI_Top_Detailed_cl/dut/axi_awaddr" type="array">
+      <obj_property name="ElementShortName">axi_awaddr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_awaddr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SMC_AXI_Top_Detailed_cl/dut/u_smc/cpu_read_en" type="logic">
+      <obj_property name="ElementShortName">cpu_read_en</obj_property>
+      <obj_property name="ObjectShortName">cpu_read_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SMC_AXI_Top_Detailed_cl/dut/u_smc/busy" type="logic">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SMC_AXI_Top_Detailed_cl/dut/u_smc/bram_we" type="logic">
+      <obj_property name="ElementShortName">bram_we</obj_property>
+      <obj_property name="ObjectShortName">bram_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SMC_AXI_Top_Detailed_cl/dut/u_smc/state" type="array">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SMC_AXI_Top_Detailed_cl/dut/u_smc/cpu_data_out" type="array">
+      <obj_property name="ElementShortName">cpu_data_out[127:0]</obj_property>
+      <obj_property name="ObjectShortName">cpu_data_out[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SMC_AXI_Top_Detailed_cl/tb_awaddr" type="array">
+      <obj_property name="ElementShortName">tb_awaddr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_awaddr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SMC_AXI_Top_Detailed_cl/tb_awvalid" type="logic">
+      <obj_property name="ElementShortName">tb_awvalid</obj_property>
+      <obj_property name="ObjectShortName">tb_awvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SMC_AXI_Top_Detailed_cl/tb_awready" type="logic">
+      <obj_property name="ElementShortName">tb_awready</obj_property>
+      <obj_property name="ObjectShortName">tb_awready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SMC_AXI_Top_Detailed_cl/tb_wdata" type="array">
+      <obj_property name="ElementShortName">tb_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_wdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SMC_AXI_Top_Detailed_cl/tb_wstrb" type="array">
+      <obj_property name="ElementShortName">tb_wstrb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_wstrb[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SMC_AXI_Top_Detailed_cl/tb_wvalid" type="logic">
+      <obj_property name="ElementShortName">tb_wvalid</obj_property>
+      <obj_property name="ObjectShortName">tb_wvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SMC_AXI_Top_Detailed_cl/tb_wready" type="logic">
+      <obj_property name="ElementShortName">tb_wready</obj_property>
+      <obj_property name="ObjectShortName">tb_wready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SMC_AXI_Top_Detailed_cl/tb_bresp" type="array">
+      <obj_property name="ElementShortName">tb_bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_bresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SMC_AXI_Top_Detailed_cl/tb_bvalid" type="logic">
+      <obj_property name="ElementShortName">tb_bvalid</obj_property>
+      <obj_property name="ObjectShortName">tb_bvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SMC_AXI_Top_Detailed_cl/tb_bready" type="logic">
+      <obj_property name="ElementShortName">tb_bready</obj_property>
+      <obj_property name="ObjectShortName">tb_bready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SMC_AXI_Top_Detailed_cl/tb_araddr" type="array">
+      <obj_property name="ElementShortName">tb_araddr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_araddr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SMC_AXI_Top_Detailed_cl/tb_arvalid" type="logic">
+      <obj_property name="ElementShortName">tb_arvalid</obj_property>
+      <obj_property name="ObjectShortName">tb_arvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SMC_AXI_Top_Detailed_cl/tb_arready" type="logic">
+      <obj_property name="ElementShortName">tb_arready</obj_property>
+      <obj_property name="ObjectShortName">tb_arready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SMC_AXI_Top_Detailed_cl/tb_rdata" type="array">
+      <obj_property name="ElementShortName">tb_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SMC_AXI_Top_Detailed_cl/tb_rresp" type="array">
+      <obj_property name="ElementShortName">tb_rresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_rresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SMC_AXI_Top_Detailed_cl/tb_rvalid" type="logic">
+      <obj_property name="ElementShortName">tb_rvalid</obj_property>
+      <obj_property name="ObjectShortName">tb_rvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SMC_AXI_Top_Detailed_cl/tb_rready" type="logic">
+      <obj_property name="ElementShortName">tb_rready</obj_property>
+      <obj_property name="ObjectShortName">tb_rready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SMC_AXI_Top_Detailed_cl/VEC_PLAINTEXT" type="array">
+      <obj_property name="ElementShortName">VEC_PLAINTEXT[127:0]</obj_property>
+      <obj_property name="ObjectShortName">VEC_PLAINTEXT[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SMC_AXI_Top_Detailed_cl/VEC_KEY" type="array">
+      <obj_property name="ElementShortName">VEC_KEY[127:0]</obj_property>
+      <obj_property name="ObjectShortName">VEC_KEY[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SMC_AXI_Top_Detailed_cl/VEC_NONCE" type="array">
+      <obj_property name="ElementShortName">VEC_NONCE[95:0]</obj_property>
+      <obj_property name="ObjectShortName">VEC_NONCE[95:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SMC_AXI_Top_Detailed_cl/TARGET_ADDR" type="array">
+      <obj_property name="ElementShortName">TARGET_ADDR[7:0]</obj_property>
+      <obj_property name="ObjectShortName">TARGET_ADDR[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SMC_AXI_Top_Detailed_cl/received_plaintext" type="array">
+      <obj_property name="ElementShortName">received_plaintext[127:0]</obj_property>
+      <obj_property name="ObjectShortName">received_plaintext[127:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_SMC_AXI_Top_Detailed_cl/POLL_DELAY" type="array">
+      <obj_property name="ElementShortName">POLL_DELAY[31:0]</obj_property>
+      <obj_property name="ObjectShortName">POLL_DELAY[31:0]</obj_property>
+   </wvobject>
+</wave_config>
